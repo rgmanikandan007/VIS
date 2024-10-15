@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+/* Navbar Start */
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
+    padding: 10px;
+    /* position: fixed;
+       width: 100%; */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo img {
+    width: 120px;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.navbar-links ul li a,
+.navbar-links ul li {
+    padding: 13px;
+    letter-spacing: 1px;
+    color: #111;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
+}
+.dropdown-content a:hover {
+    background-color: #e2e2e2;
+    color: #111;
+}
+.dropdown-content a {
+    padding: 15px;
+    color: #000000;
+    display: block;
+    text-align: left;
+    text-decoration: none;  
+    background-color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.enquiry-btn a{
+    text-decoration: none;
+    color: #111;
+}
+.enquiry-btn a:hover{
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+}
+.enquiry-btn button{
+    padding: 10px 20px;
+    margin-top: 10px; 
+    border-radius: 10px;
+    border: #000000 1px solid;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+}
+.enquiry-btn button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.navbar-toggle,
+.navbar-close {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-close {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #f8e852;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-logo img {
+        width: 70px;
+    }
+    .navbar-links ul {
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        margin: 0;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-close {
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-links.active + .navbar-close {
+        display: block;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .enquiry-btn {
+        display: none;
+    }
+    .navbar-toggle,
+    .navbar-close {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+}
+/* Navbar End */
+
+
+
