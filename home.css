@@ -256,4 +256,50 @@ body button,li{
 
 
 
+/* Whyus Start */
+.whyus{
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #fcfcfc;
+}
+.whyus-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.whyus h2{
+    text-align: center;
+    color: #359d21;
+    letter-spacing: 2px;
+}
+.whyus h4{
+    text-align: center;
+    color: #202020;
+    letter-spacing: 1px;
+}
+.left-child{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.left-child-image img{
+    width: 80px;
+}
+.center-whyus img{
+    width: 400px;
+}
+.right-child{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2rem;
+}
+.right-child-image img{
+    width: 80px;
+}
+
+/* Whyus End */
+
+
+
 
