@@ -498,20 +498,23 @@ body button,li{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-}
-
+}   
 .lab3 button {
-    padding: 10px 20px;
-    background-color: #28b310;
-    color: #000000;
+    padding: 10px 30px;
     border: none;
+    border-radius: 5px;
+    background-color: #28b310;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
     cursor: pointer;
-    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 1rem;
 }
-
 .lab3 button:hover {
-    background-color: #ffffff;
-    border: 1px solid #111;
+    background-color: transparent;
+    color: #28b310;
+    border: #9bf88a 1px solid;
 }
 
 
